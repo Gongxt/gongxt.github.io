@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Api</title>
+    <link>https://example.org/</link>
+    <description>Recent content on Api</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>购物车</title>
+      <link>https://example.org/docs/cart-api/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/docs/cart-api/</guid>
+      <description>购物车  购物车列表  get: cart/index  // 返回值 { &amp;quot;errno&amp;quot;: 0, &amp;quot;errmsg&amp;quot;: &amp;quot;&amp;quot;, &amp;quot;data&amp;quot;: { &amp;quot;cartList&amp;quot;: [ { &amp;quot;id&amp;quot;: 29, &amp;quot;user_id&amp;quot;: 32, &amp;quot;goods_id&amp;quot;: 1181004, &amp;quot;goods_sn&amp;quot;: &amp;quot;1018002&amp;quot;, &amp;quot;goods_name&amp;quot;: &amp;quot;多功能午睡枕&amp;quot;, &amp;quot;product_id&amp;quot;: 282, &amp;quot;price&amp;quot;: 127, &amp;quot;number&amp;quot;: 1, &amp;quot;specifications&amp;quot;: [ &amp;quot;标准&amp;quot; ], &amp;quot;checked&amp;quot;: 1, &amp;quot;pic_url&amp;quot;: &amp;quot;http://localhost:8080/wx/storage/fetch/eg8mq8jw4flwaifcpubu.jpg&amp;quot;, &amp;quot;add_time&amp;quot;: &amp;quot;2018-10-10 17:23:53&amp;quot;, &amp;quot;deleted&amp;quot;: 0, &amp;quot;version&amp;quot;: 0, &amp;quot;goods_specifition_name_value&amp;quot;: &amp;quot;标准&amp;quot; } ], &amp;quot;cartTotal&amp;quot;: { &amp;quot;goodsCount&amp;quot;: 1, &amp;quot;goodsAmount&amp;quot;: 127, &amp;quot;checkedGoodsCount&amp;quot;: 1, &amp;quot;checkedGoodsAmount&amp;quot;: 127 }, &amp;quot;policyInfo&amp;quot;: [ &amp;quot;满90免邮费&amp;quot; ] } }  添加商品到购物车 如果购物车里面已经存在此商品，需要 +1 操作</description>
+    </item>
+    
+  </channel>
+</rss>
